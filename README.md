@@ -1,6 +1,6 @@
 # Training-Shop React App
 
-You can see this project [here]("https://kuba-kola.github.io/training-shop/).
+You can see this project [here](https://kuba-kola.github.io/training-shop/).
 
 # Getting Started with Create React App
 
