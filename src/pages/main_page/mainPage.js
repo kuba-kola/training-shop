@@ -1,5 +1,4 @@
 import React from 'react';
-
 import arrowLeft from '../../assets/png/arrow-left.png'
 import arrowRight from '../../assets/png/arrow-right.png'
 import './mainPage.css';
