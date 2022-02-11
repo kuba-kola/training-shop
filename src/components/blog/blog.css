@@ -1,0 +1,144 @@
+.article-box {
+    align-items: flex-end;
+    display: flex;
+    height: 342px;
+    margin-top: 48px;
+    overflow: hidden;
+    width: 350px;
+  }
+  
+  .overlap-group {
+    height: 394px;
+    margin-bottom: -52px;
+    position: relative;
+    width: 350px;
+  }
+  
+  .rectangle-1 {
+    height: 276px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 350px;
+  }
+  
+  .group-116 {
+    align-items: center;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    left: 24px;
+    min-height: 174px;
+    padding: 15px 0;
+    position: absolute;
+    top: 220px;
+    width: 302px;
+  }
+  
+  .the-easiest-way-to-break {
+    align-self: flex-start;
+    letter-spacing: 0.84px;
+    line-height: 22px;
+    margin-left: 16px;
+    margin-top: 9px;
+    min-height: 22px;
+    white-space: nowrap;
+  }
+  
+  .but-i-must-explain-t {
+    color: var(--dark);
+    font-weight: 400;
+    line-height: 22px;
+    margin-top: 12px;
+    min-height: 64px;
+    opacity: 0.8;
+    width: 270px;
+  }
+  
+  .flex-row {
+    align-items: flex-start;
+    display: flex;
+    height: 13px;
+    margin-top: 24px;
+    min-width: 270px;
+  }
+  
+  .date {
+    letter-spacing: 0;
+    min-height: 13px;
+    min-width: 87px;
+    opacity: 0.6;
+  }
+  
+  .read-more {
+    letter-spacing: 0.72px;
+    margin-left: 97px;
+    min-height: 13px;
+    min-width: 86px;
+    text-align: right;
+  }
+  
+  .article-box.article-box-1 {
+    margin-left: 30px;
+    margin-top: unset;
+  }
+  
+  .article-box.article-box-2 {
+    margin-top: 51px;
+  }
+  
+  .article-box.article-box-2 .the-easiest-way-to-break {
+    align-self: unset;
+    margin-left: unset;
+    margin-right: 7px;
+    min-width: 263px;
+  }
+  
+  .group-66 {
+    align-items: flex-end;
+    display: flex;
+    height: 415px;
+    min-width: 1114px;
+    position: relative;
+  }
+  
+  .flex-col {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    min-height: 415px;
+    position: relative;
+    width: 350px;
+  }
+  
+  .latest-from-blog {
+    height: 25px;
+    letter-spacing: 1.32px;
+  }
+  
+  .flex-col-1 {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    min-height: 406px;
+    position: relative;
+    width: 350px;
+  }
+  
+  .see-all {
+    letter-spacing: 0.72px;
+    min-height: 13px;
+    min-width: 56px;
+    opacity: 0.6;
+    text-align: right;
+  }
+  
+  @import url("https://fonts.googleapis.com/css?family=Spartan:400,700,500,600|Inter:400|Montserrat:400");
+  
+  .valign-text-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
