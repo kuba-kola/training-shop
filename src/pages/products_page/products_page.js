@@ -1,5 +1,5 @@
 import React from 'react';
-import { CardProduct } from "../../components/cards/cards";
+import CardProduct from "../../components/cards/cards";
 import ProductHeader from "../../components/product_header/product_header";
 import filter from "../../assets/png/filter.png";
 import viewGrid from "../../assets/png/view-grid.png";
@@ -13,9 +13,7 @@ const ProductsPage = (page) => {
     const typePage = page.page;
     const typePageUpper = typePage.toUpperCase();
     const productType  = typePage.toLowerCase();
-    console.log(typePage);
-    console.log(typePageUpper);
-    console.log(productType);
+    
     
     return (
         <section className='products-page' data-test-id={`products-page-${productType}`}>

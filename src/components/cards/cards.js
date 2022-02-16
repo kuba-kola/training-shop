@@ -29,4 +29,4 @@ const CardProduct = (productType) => {
     )
 }
 
-export {CardProduct}
+export default CardProduct
