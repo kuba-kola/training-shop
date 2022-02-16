@@ -1,5 +1,5 @@
 import React from "react";
-import { CardProduct } from "../cards/cards";
+import CardProduct from "../cards/cards";
 import { productType } from "../../data/PRODUCT_TYPE";
 import { filterButtons } from "../../data/FILTER_BUTTONS";
 
