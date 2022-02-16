@@ -1,21 +1,24 @@
 import React from "react";
-import './news.css'
 
-function News() {
+import "./news.css";
+
+const News = () => {
     return (
-      <div className="group-62">
-        <div className="overlap-group">
-          <div className="new-seasonvalign-text-middlespartan-semi-bold-licorice-12px">
-            NEW SEASON
-          </div>
-          <div className="lookbook-collectionvalign-text-middlespartan-semi-bold-licorice-16px">
-            LOOKBOOK COLLECTION
-          </div>
-        </div>
-      </div>
+        <section className="container-new-sale">
+            <div className="new-sale_new">
+                <div className="new">
+                    <span>New Season</span>
+                    <span className="text">lookbook collection</span>
+                </div>
+            </div>
+            <div className="new-sale_sale">
+                <div className="sale">
+                    <span>Sale</span>
+                    <div className="text">Get UP to <span className="text" style={{color: '#E91E63', display: 'inline'}}>50% off</span></div>
+                </div>
+            </div>
+        </section>
+    )
+}
 
-      
-    );
-  }
-  
-  export default News;
+export default News

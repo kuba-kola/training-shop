@@ -1,9 +1,9 @@
 import React from 'react';
 import arrowLeft from '../../assets/png/arrow-left.png'
 import arrowRight from '../../assets/png/arrow-right.png'
-import './mainPage.css';
+import './main.css';
 
-const MainPage = () => {
+const Main = () => {
     return (
         <section className='header-part-one'>
             <div className='header-banner'>
@@ -31,8 +31,8 @@ const MainPage = () => {
                     </div>
                 </div>
             </div>
-        </section>
+        </section>        
     )
 }
 
-export {MainPage}
+export default Main

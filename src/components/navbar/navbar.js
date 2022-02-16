@@ -1,5 +1,5 @@
 import React from 'react';
-import tel from "../../assets/png/tel.png";
+import tel from "../../assets/png/phone.png";
 import location from "../../assets/png/location_market.png";
 import clock from "../../assets/png/clock.png";
 import facebook from "../../assets/png/facebook.png";
