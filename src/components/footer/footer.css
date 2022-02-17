@@ -11,9 +11,8 @@
 
 .footer .wrapper-footer-contact-form .footer-contact-form {
   width: 89%;
-  height: 56px;
-  margin: 0 auto;
-  padding: 0 20px;
+  margin: auto;
+  padding: 12px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -23,6 +22,8 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -ms-flex-wrap: wrap;
+    flex-wrap: wrap;  
 }
 
 .footer .wrapper-footer-contact-form .footer-contact-form span {
@@ -38,6 +39,8 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  min-width: 280px;
+  margin: 10px;          
 }
 
 .footer .wrapper-footer-contact-form .footer-contact-form .contact-form input {
@@ -58,7 +61,6 @@
 
 .footer .wrapper-footer-nav {
   width: 89%;
-  height: 237px;
   margin: 0 auto;
   padding: 40px 20px;
   display: -webkit-box;
@@ -67,10 +69,15 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 255px);
+          
+          
 }
 
 .footer .wrapper-footer-nav .footer-nav {
-  
+  min-height: 130px;
+  margin: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -81,6 +88,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+      
 }
 
 .footer .wrapper-footer-nav .footer-nav strong {
@@ -130,3 +138,11 @@
   opacity: 80%;
   text-decoration: none;
 } 
+
+@media screen and (max-width: 705px) {
+  .footer .wrapper-footer-contact-form .footer-contact-form {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}

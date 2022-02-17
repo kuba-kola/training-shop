@@ -30,4 +30,3 @@ const CardsItem = () => {
 }
 
 export default CardsItem
-
