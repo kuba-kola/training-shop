@@ -11,6 +11,9 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 355px);
+    grid-gap: 10px;
   }
   
   .container-advantage .free-shipping, .container-advantage .days-return, .container-advantage .support {
@@ -24,6 +27,7 @@
     min-height: 30px;
     margin-right: 20px;
     background: center/100% no-repeat;
+    
   }
   
   .container-advantage .free-shipping .img-days-return, .container-advantage .days-return .img-days-return, .container-advantage .support .img-days-return {
