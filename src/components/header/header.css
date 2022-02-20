@@ -80,3 +80,34 @@
     height: calc(100px + (66 - 100) * ((100vw - 320px) / (1300 - 320)));
   }
 }
+
+.container-header-nav-menu .mobile__navigation {
+  display: none;
+}
+
+@media (max-width: 907px) {
+  .container-header-nav-menu .default__navigation {
+    display: none;
+  }
+  .container-header-nav-menu .mobile__navigation {
+    display: flex;
+    align-items: center;
+    
+  }
+
+  .container-header-nav-menu .mobile__navigation .mobile__hamburger {
+    position: absolute;
+    right: 5%;
+    cursor: pointer;
+  }
+
+  .container-header-nav-menu ul span {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 100%;
+    background: #12121266;
+  }
+}

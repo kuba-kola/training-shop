@@ -7,6 +7,8 @@ import { Navbar } from '../navbar/navbar';
 import {Link} from "react-router-dom";
 import './header.css';
 import '../../index.css';
+import { MENU } from '../../data/MENU';
+
 
 import Navigation from './navigation';
 import MobileNavigation from './mobile_navigation';
