@@ -8,20 +8,21 @@ import {Link} from "react-router-dom";
 import './header.css';
 import '../../index.css';
 import { MENU } from '../../data/MENU';
+// import { useState, useRef } from "react";
 
 
 import Navigation from './navigation';
 import MobileNavigation from './mobile_navigation';
 
-const Header = () => {
-
+const Header = () => {   
+    
     return (
         <div className='header' data-test-id='header'>
             <Navbar />
             <section className='container-header-nav-menu'>
                 <nav className='header-nav-menu'>
                     <Link to="/" className='header-nav-logo' data-test-id='header-logo-link'>CleverShop</Link>
-                    <div>
+                    <div className='menu' data-test-id='menu'>
                         <Navigation/>
                         <MobileNavigation/>
                     </div>

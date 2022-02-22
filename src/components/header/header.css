@@ -46,6 +46,7 @@
   color: #000;
   font-family: 'Spartan';
   font-size: 14px;
+  display: grid;
 }
 
 @media screen and (max-width: 940px) {
@@ -85,7 +86,7 @@
   display: none;
 }
 
-@media (max-width: 907px) {
+@media (max-width: 996px) {
   .container-header-nav-menu .default__navigation {
     display: none;
   }
@@ -101,8 +102,8 @@
     cursor: pointer;
   }
 
-  .container-header-nav-menu ul span {
-    display: flex;
+  .container-header-nav-menu .header-nav-menu .mobile__navigation Link {
+    display: flex;   
     flex-direction: column;
     position: absolute;
     top: 80px;
@@ -110,4 +111,8 @@
     width: 100%;
     background: #12121266;
   }
+  .container-header-nav-menu .header-nav-menu .mobile__navigation ul li {
+    padding-left: 15%;
+  }
+
 }
