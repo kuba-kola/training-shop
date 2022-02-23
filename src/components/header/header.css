@@ -87,7 +87,12 @@
 }
 
 @media (max-width: 996px) {
-  .container-header-nav-menu .default__navigation {
+
+  .wrapper-header-nav-menu {
+    background: #F8F8F8;
+  }
+  
+  .container-header-nav-menu .header-nav-menu .menu {
     display: none;
   }
   .container-header-nav-menu .mobile__navigation {
@@ -96,8 +101,7 @@
     
   }
 
-  .container-header-nav-menu .mobile__navigation .mobile__hamburger {
-    position: absolute;
+  .container-header-nav-menu .mobile__navigation .menu {    
     right: 5%;
     cursor: pointer;
   }
@@ -116,3 +120,4 @@
   }
 
 }
+

@@ -1,13 +1,13 @@
 import React from 'react';
 import { MENU } from '../../data/MENU';
 import {Link} from "react-router-dom";
-import './header.css';
+import './navLinks.css';
 import '../../index.css';
 
 const NavLinks = (props) => {
     return(
-        <section className='container-header-nav-menu'>
-        <div className='menu' data-test-id='menu'>
+       
+        <div>
             {MENU.map(({ id, path, name }) => (
                 <Link key={id} to={`/${path}`} 
                     className='menu-item' 
@@ -18,7 +18,7 @@ const NavLinks = (props) => {
                 </Link>
             ))}
         </div>
-        </section> 
+       
     )
 }
 

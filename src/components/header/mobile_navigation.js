@@ -12,17 +12,18 @@ const MobileNavigation = () => {
 
     const [open, setOpen] = useState(false);
 
-    const hamburgerIcon =  <FcMenu 
-                            className='mobile__hamburger' 
+    const hamburgerIcon = <FcMenu 
+                            className='burger-menu-btn' 
                             size='24px'
                             onClick={() => {setOpen(!open)}}                            
                             />
 
     const closeIcon = <AiOutlineClose 
-                        className='mobile__hamburger' 
+                        className='burger-menu-btn' 
                         size='24px'
                         onClick={() => {setOpen(!open)}}
                         />
+                        
     const closeMenu = () => {setOpen(false)}
 
     
@@ -30,10 +31,8 @@ const MobileNavigation = () => {
     return(
         <nav className="mobile__navigation" data-test-id='burger-menu'>
             {open ? closeIcon: hamburgerIcon}
-            {open && <NavLinks isMobile={true} closeMenu={closeMenu} />}
-            
+            {open && <NavLinks isMobile={true} closeMenu={closeMenu} />}            
         </nav>
     )
 }
-
 export default MobileNavigation

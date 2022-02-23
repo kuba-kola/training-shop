@@ -8,7 +8,7 @@ import {Link} from "react-router-dom";
 import './header.css';
 import '../../index.css';
 import { MENU } from '../../data/MENU';
-// import { useState, useRef } from "react";
+import classNames from "classnames";
 
 
 import Navigation from './navigation';
@@ -21,23 +21,20 @@ const Header = () => {
             <Navbar />
             <section className='container-header-nav-menu'>
                 <nav className='header-nav-menu'>
-                    <Link to="/" className='header-nav-logo' data-test-id='header-logo-link'>CleverShop</Link>
-                    <div className='menu' data-test-id='menu'>
-                        <Navigation/>
-                        <MobileNavigation/>
-                    </div>
-                    {/* <div className='menu' data-test-id='menu'>
+                    <Link to="/" className='header-nav-logo' data-test-id='header-logo-link'>CleverShop</Link>                    
+                    <div className='menu' data-test-id='burger-menu'>
                         {MENU.map(({ id, path, name }) => (
                             <Link key={id} to={`/${path}`} className='menu-item' data-test-id={`menu-link-${path}`}>
                                 <span>{name}</span>
                             </Link>
-                        ))}
-                    </div> */}
+                        ))}                        
+                    </div>
                     <div className='menu-nav'>
                         <img src={search} alt='img' />
                         <img src={globe} alt='img' />
                         <img src={user} alt='img' />
                         <img src={shoppingBag} alt='img' />
+                        <MobileNavigation/>
                     </div>          
                 </nav>
             </section>            
